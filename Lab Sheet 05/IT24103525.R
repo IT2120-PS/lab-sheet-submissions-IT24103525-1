@@ -1,4 +1,4 @@
-setwd("C:\\Users\\it24103285\\Desktop\\IT24103285")
+setwd("C:\\Users\\it24103525\\Desktop\\IT24103525")
 Delivery_Times <- read.table("Exercise - Lab 05.txt", header = TRUE)
 
 # Histogram
@@ -26,3 +26,4 @@ bin_midpoints <- seq(22.5, 67.5, by=5)
 plot(bin_midpoints, cum_freq, type="o", 
      col="blue", xlab="Delivery Time", ylab="Cumulative Frequency", 
      main="Cumulative Frequency Polygon (Ogive)")
+
